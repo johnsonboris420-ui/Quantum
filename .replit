@@ -9,7 +9,6 @@ id = "artifacts/mockup-sandbox"
 [deployment]
 router = "application"
 deploymentTarget = "autoscale"
-run = ["sh", "-c", "exp://quantum-fractal--simon90005.replit.app"]
 
 [deployment.postBuild]
 args = ["pnpm", "store", "prune"]
