@@ -9,7 +9,8 @@ id = "artifacts/mockup-sandbox"
 [deployment]
 router = "application"
 deploymentTarget = "autoscale"
-run = ["sh", "-c", "exp://quantum-fractal--simon90005.replit.app"]
+run = ["sh", "-c", "npx eas-cli@latest init --id 64702326-415e-4c8b-905c-4eae76c16e0d"]
+build = ["sh", "-c", "npx eas-cli@latest init --id 64702326-415e-4c8b-905c-4eae76c16e0d"]
 
 [deployment.postBuild]
 args = ["pnpm", "store", "prune"]
