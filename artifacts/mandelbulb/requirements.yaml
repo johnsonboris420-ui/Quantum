@@ -1,0 +1,11 @@
+packages:
+  "framer-motion": "For smooth panel animations and glowing UI transitions"
+  "clsx": "Utility for constructing CSS class names"
+  "tailwind-merge": "Utility for merging tailwind classes without style conflicts"
+
+images: []
+
+notes:
+  - "This is a 100% client-side compute application."
+  - "The 4D Mandelbulb rendering runs on the main thread via chunked requestAnimationFrame to keep the UI responsive."
+  - "No backend API integration is required."
